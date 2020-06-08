@@ -17,6 +17,7 @@ public protocol BMPlayerDelegate : class {
     func bmPlayer(player: BMPlayer, playTimeDidChange currentTime : TimeInterval, totalTime: TimeInterval)
     func bmPlayer(player: BMPlayer, playerIsPlaying playing: Bool)
     func bmPlayer(player: BMPlayer, playerOrientChanged isFullscreen: Bool)
+    func bmPlayer(player: BMPlayer, didChangeOrientation isFullScreen: Bool)
 }
 
 /**
